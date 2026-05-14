@@ -285,7 +285,7 @@ export default function App() {
                     {pl && (
                       <span className="participant-info">
                         <span className="participant-info-names">{pl.names.join(', ')} 참여</span>
-                        <span className="participant-info-excluded">{pl.excluded.join(', ')} 제외</span>
+                        <span className="participant-info-excluded">{pl.excluded.join(', ')}</span>
                       </span>
                     )}
                   </div>
